@@ -27,6 +27,7 @@ namespace Figures.Test.Calculators
         [Test]
         public void Calculate_WhenTriangleProvided_ShouldReturnSquare()
         {
+            // Arrange
             var triangle = new TriangleBase(3, 5, 4);
             var expectedResult = 6;
             var calculator = new FigureCalculator();
